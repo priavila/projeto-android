@@ -17,7 +17,9 @@
     --fonte-titulo-principal: 'Bebas Neue', sans-serif;
     --fonte-subtitulo: 'Android', sans-serif;
 
-    --cor01: #A5E6C5;
+    
+    --cor00: #EBE5C5;
+    --cor01: #86E2AF;
     --cor02: #43E092;
     --cor03: #34AD71;
     --cor04: #1C5E41;
@@ -25,23 +27,26 @@
 }
 
 body {
-   background-color: var(--cor01);
+   background-color: var(--cor00);
    font-family: var(--fonte-principal);
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor02), var(--cor03), var(--cor04));
-    min-height: 140px;
-    padding-top: 30px;
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor04));
+    height: 180px;
+    min-height: 160px;
+    padding-top: 40px;
     text-align: center; 
     
 }
 
 header > h1 {
     font-family: var(--fonte-titulo-principal);
-    font-weight: normal;
+    font-weight: lighter;
     font-size: 3em;
     color: white;
+    margin: 0px 2px 0px 2px;
+    padding-bottom: 20px;
     text-shadow: 2px 2px 0px #00000045;
     
 }
@@ -49,7 +54,14 @@ header > h1 {
 header > p {
     font-family: var(--fonte-principal);
     color: white;
-    padding-top: 15px;
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    margin: auto;
+    font-size: 1.2em;
+    
+    
     text-shadow: 2px 2px 0px #00000045;
     
 }
@@ -57,15 +69,15 @@ header > p {
 nav {
     background-color: var(--cor04);
     padding: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 4px 4px #00000042;
     
 }
 
 nav > a {
-    color: white;
+    color: var(--cor01);
     text-decoration: none;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 1em;
     padding: 10px;
     border-radius: 4px;
     transition-duration: 0.5s;
@@ -81,7 +93,7 @@ nav > a:hover {
 main {
     background-color: white;
     min-width: 300px;
-    max-width: 700px;
+    max-width: 1000px;
     margin: auto;
     padding: 10px 20px 30px 20px;
     box-shadow: 0px 0px 8px #00000054;
@@ -90,7 +102,7 @@ main {
 
 main h1 {
     font-family: var(--fonte-subtitulo);
-    font-size: 1.4em;
+    font-size: 1.8em;
     font-weight: normal;
     color: var(--cor05);
     padding-top: 8px;
@@ -100,9 +112,9 @@ main h1 {
 main h2 {
     background-image: linear-gradient(to right, var(--cor01), transparent) ;
     font-family: var(--fonte-subtitulo);
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: normal;
-    color: var(--cor03);
+    color: var(--cor04);
     padding: 2px;
     text-indent: 8px;
 }
@@ -170,14 +182,13 @@ aside {
     background-color: var(--cor01);
     border-radius: 10px 10px;
     box-shadow: 2px 2px 8px #00000034;
-    font-size: 0.9em;
+    font-size: 1em;
     padding: 10px;
 }
 
 aside h3 {
-    background-color: var(--cor03);
+    background-color: var(--cor04);
     color: white;
-    font-size: 1.1em;
     padding: 5px;
     margin: -10px -10px 0px -10px;
     text-indent: 3px;
@@ -195,7 +206,7 @@ aside ul {
 footer {
     background-color: var(--cor04);
     color: white;
-    font-size: 0.7em;
+    font-size: 0.8em;
     text-align: center;
     margin-top: 40px;
     padding: 5px;
