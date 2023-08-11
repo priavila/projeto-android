@@ -57,11 +57,9 @@ header > p {
     max-width: 600px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     margin: auto;
     font-size: 1.2em;
-    
-    
     text-shadow: 2px 2px 0px #00000045;
     
 }
@@ -156,7 +154,7 @@ img {
 }
 
 .pequena {
-    max-width: 280px;
+    max-width: 270px;
     display: block;
     margin: auto;
 }
@@ -182,7 +180,7 @@ aside {
     background-color: var(--cor01);
     border-radius: 10px 10px;
     box-shadow: 2px 2px 8px #00000034;
-    font-size: 1em;
+    font-size: 0.9em;
     padding: 10px;
 }
 
@@ -199,7 +197,7 @@ aside ul {
     list-style-position: inside;
     list-style-type: '\2714\00A0\00A0';     
     columns: 2;
-    text-indent: 15px;
+    text-indent: 10px;
 
 }
 
